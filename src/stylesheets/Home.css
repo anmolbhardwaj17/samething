@@ -1,0 +1,297 @@
+.outer {
+    display: table;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+.name{
+  margin:0px 0px;
+  font-size: 64px;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.1));
+}
+
+
+.tag{
+  padding-top:120px;
+}
+
+.socials{
+  padding-top:80px;
+  text-align: center;
+}
+
+.social-icon{
+  font-size: 20px;
+  padding:24px;
+  color:white;
+}
+
+.jobs{
+  padding-top:48px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.job{
+  width:33%;
+  height:200px;
+  display:flex;
+}
+
+.comp-name{
+  margin:0px;
+}
+.date{
+  margin:0px;
+  font-size: 16px;
+  padding-top:8px;
+}
+
+.comp-about{
+  padding-left:16px;
+}
+
+.comp-position{
+  margin:0px;
+  padding-top:8px;
+}
+
+.projects{
+  padding-top:48px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project{
+  width:30%;
+  height:440px;
+  margin:0px 8px;
+}
+
+.project img{
+  border-radius: 8px;
+  box-shadow: 0px 2px 111px rgba(45, 45, 45, 0.52), 0px 0.730033px 40.5168px rgba(45, 45, 45, 0.35879), 0px 0.354417px 19.6702px rgba(45, 45, 45, 0.289271), 0px 0.173742px 9.64268px rgba(45, 45, 45, 0.230729), 0px 0.0686979px 3.81273px rgba(45, 45, 45, 0.16121);
+}
+
+.project img:hover{
+  transition: 0.5s;
+  box-shadow: 0px 2px 48px rgba(158, 158, 158, 0.27), 0px 0.602941px 14.4706px rgba(158, 158, 158, 0.175929), 0px 0.250431px 6.01034px rgba(158, 158, 158, 0.135), 0px 0.090576px 2.17382px rgba(158, 158, 158, 0.094071);
+  
+}
+
+.seemore{
+  margin-top:8px;
+}
+
+.more-proj{
+  text-align: center;
+}
+
+
+#more-projects{
+  color:#060606;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding:16px 24px;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+#more-projects:hover{
+  color:#ffffff;
+  background-color: rgb(39, 39, 39);
+  transition: 0.2s;
+  
+
+}
+
+.techstack{
+  padding-top:120px;
+  padding-bottom:120px;
+}
+
+
+.languages{
+  padding-top:48px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.language{
+  width:48px;
+  height:64px;
+  margin-right:48px;
+}
+
+.bankrupt{
+  display:flex;
+  justify-content: space-between;
+}
+
+.design-page{
+  padding-top:48px;
+}
+
+#ig{
+  padding-right:12px;
+}
+
+.email-div{
+  padding-top:24px;
+}
+
+.c-email{
+  color:#2eca72;
+  font-size:20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.c-email:hover{
+  transform: scale(0.7);
+}
+
+.outer2 {
+  display: table;
+  height: 50vh;
+  width: 100%;
+}
+
+.middle2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.socials2{
+  padding-top:80px;
+}
+
+.social-icon2{
+  font-size: 20px;
+  padding-right:48px;
+  color:white;
+}
+
+  
+
+
+.create{
+  background: linear-gradient(to right,#FB5607 7%, #FF006E 20%, #8338EC 33%, #3a86ff 56%, #2dc653 79%, #FFBE0B 92%,#FB5607 99%);
+  background-size: 400% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 8s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.bi-medium:hover{
+  color:#a1a1a1;
+  transition: 0.2s;
+}
+.bi-linkedin:hover{
+  color:#0A63C5;
+  transition: 0.2s;
+}
+.bi-behance:hover{
+  color:#0254F7;
+  transition: 0.2s;
+}
+
+.bi-twitter:hover{
+  color:#1A91DA;
+  transition: 0.2s;
+}
+.bi-github:hover{
+  color:rgb(165, 165, 165);
+  transition: 0.2s;
+}
+
+
+@media(max-width:1920px){
+  .outer2 {
+    display: table;
+    height: 80vh;
+    width: 100%;
+  }
+  .job{
+    width:300px;
+    height:200px;
+    display:flex;
+  }
+  .project{
+    width:30%;
+    height:440px;
+    margin:0px 8px;
+  }
+}
+
+@media(max-width:768px){
+  .project{
+    width:40% !important;
+    height:300px;
+    margin:0px 8px;
+  }
+}
+
+
+
+@media(max-width:455px){
+  .name{
+    font-size:40px;
+  }
+  .job{
+    width:400px;
+    height:160px;
+    display:flex;
+  }
+  .social-icon{
+    font-size: 20px;
+    padding:20px;
+  }
+
+  .social-icon2{
+    font-size: 20px;
+    padding-right:36px;
+  }
+  .language{
+    width:36px;
+    height:64px;
+    margin-right:24px;
+  }
+  .bankrupt{
+    display:block;
+  }
+  .project{
+    width:100% !important;
+    height:320px;
+    margin:0px 8px;
+  }
+  .outer2 {
+    display: table;
+    height: 100vh;
+    width: 100%;
+  }
+}
