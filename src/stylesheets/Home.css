@@ -58,6 +58,10 @@
   padding-left:16px;
 }
 
+.main-intro{
+  width:800px;
+}
+
 .comp-position{
   margin:0px;
   padding-top:8px;
@@ -68,7 +72,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .project{
@@ -246,6 +250,12 @@
     height:440px;
     margin:0px 8px;
   }
+  .main-intro{
+    width:600px;
+  }
+  .tag{
+    padding-top:60px;
+  }
 }
 
 @media(max-width:768px){
@@ -253,6 +263,9 @@
     width:40% !important;
     height:300px;
     margin:0px 8px;
+  }
+  .main-intro{
+    width:500px;
   }
 }
 
@@ -293,5 +306,8 @@
     display: table;
     height: 100vh;
     width: 100%;
+  }
+  .main-intro{
+    width:300px;
   }
 }

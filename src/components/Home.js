@@ -26,7 +26,7 @@ function Home() {
             <div className="first outer">
                 <div className="middle">
                     <h1>Hi! I'm</h1>
-                    <h1 className="name">{placeholder}</h1>
+                    <img className="main-intro" src="/assets/main.png" alt="Samsung logo"></img> 
                     <div className="tag">
                     <h3 className="grey bold">Software Developer and Blockchain enthusiast.</h3>
                     <div className="socials">
@@ -70,7 +70,7 @@ function Home() {
                         </div>
                         <div className="comp-about">
                             <h3 className="comp-name">ACM-VIT</h3>
-                            <p className="comp-position">Project Lead</p>
+                            <p className="comp-position">Project Guide</p>
                             <p className="date grey">Apr 2021 - Present</p>
                         </div>
                     </div>
@@ -112,6 +112,21 @@ function Home() {
                 <p className="grey context">Here are some of my projects</p> 
                 <div className="projects">
                     <div className="project">
+                        <a href="https://sentimiento.herokuapp.com/" target="_blank"><img width="100%" src="/assets/sentimiento.png" alt="What has happened"></img></a>
+                        <p className="">Uses twitter api to do sentimental analysis on tweets using NLP.</p>
+                        <a href="https://sentimiento.herokuapp.com/" target="_blank" className="grey bold seemore">See more</a>
+                    </div>
+                    <div className="project">
+                        <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank"><img width="100%" src="/assets/crypto stats.png" alt="What has happened"></img></a>
+                        <p className="">Get crypto data on the go</p>
+                        <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank" className="grey bold seemore">See more</a>
+                    </div>
+                    <div className="project">
+                        <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer"><img width="100%" src="/assets/girvan newman.png" alt="Girvan newman"></img></a>
+                        <p className="">Easy way to visualize and understand communities.</p>
+                        <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer" className="grey bold seemore">See more</a>
+                    </div>
+                    <div className="project">
                         <a href="https://what-has-happened.web.app/" target="_blank"><img width="100%" src="/assets/what-has-happened.png" alt="What has happened"></img></a>
                         <p className="">Website shows what has happened after you opened it.</p>
                         <a href="https://what-has-happened.web.app/" target="_blank" className="grey bold seemore">See more</a>
@@ -121,11 +136,7 @@ function Home() {
                         <p className="">Your go-to investment calculator</p>
                         <a target="_blank" href="https://investment-calculator-0.web.app/" className="grey bold seemore">See more</a>
                     </div>
-                    <div className="project">
-                        <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer"><img width="100%" src="/assets/girvan newman.png" alt="Girvan newman"></img></a>
-                        <p className="">Easy way to visualize and understand communities.</p>
-                        <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer" className="grey bold seemore">See more</a>
-                    </div>
+                    
                 </div>
 
                 <a id="more-projects" className="more-proj" onClick={toProjects}>More projects</a>
