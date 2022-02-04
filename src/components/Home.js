@@ -192,7 +192,7 @@ function Home() {
             <div className="contact">
             <div className="first outer2">
                 <div className="middle2">
-                    <h1>Let's <span className="create">create</span> together!</h1>
+                    <h1>Let's create together!</h1>
                     <p className="context grey">Working with someone has always been fun for me. Want to make something cool together?</p>
                     <p className="context bold">Hit me up!</p>
                     <div className="email-div">
