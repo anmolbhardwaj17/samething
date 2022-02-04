@@ -72,17 +72,17 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .project{
   width:30%;
-  height:440px;
+  height:400px;
   margin:0px 8px;
 }
 
 .project img{
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 0px 2px 111px rgba(45, 45, 45, 0.52), 0px 0.730033px 40.5168px rgba(45, 45, 45, 0.35879), 0px 0.354417px 19.6702px rgba(45, 45, 45, 0.289271), 0px 0.173742px 9.64268px rgba(45, 45, 45, 0.230729), 0px 0.0686979px 3.81273px rgba(45, 45, 45, 0.16121);
 }
 
@@ -105,16 +105,19 @@
   color:#060606;
   background-color: white;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 48px;
   padding:16px 24px;
+  min-width:200px;
+  font-size: 16px;
   font-weight: bold;
   text-decoration: none;
+  transition: 0.2s;
+  font-family: 'Gilroy';
   
 }
 
 #more-projects:hover{
-  color:#ffffff;
-  background-color: rgb(39, 39, 39);
+  color:#0099ff;
   transition: 0.2s;
   
 
@@ -141,8 +144,21 @@
 }
 
 .bankrupt{
-  display:flex;
+}
+
+.designs-img{
+  display: flex;
   justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.designs-img img{
+  width:30%;
+  border: 4px solid rgba(128, 128, 128,0.3);
+  border-radius: 12px;
+  margin: 12px;
 }
 
 .design-page{
@@ -260,12 +276,15 @@
 
 @media(max-width:768px){
   .project{
-    width:40% !important;
+    width:45% !important;
     height:300px;
     margin:0px 8px;
   }
   .main-intro{
     width:500px;
+  }
+  .designs-img img{
+    width:40%;
   }
 }
 
@@ -309,5 +328,18 @@
   }
   .main-intro{
     width:300px;
+  }
+  #more-projects{
+    width:100%; 
+  }
+
+  .designs-img{
+    display: block;
+    padding:48px 0px;
+  }
+  .designs-img img{
+    width:45%;
+    margin: 4px;
+    border: 2px solid rgba(128, 128, 128,0.3);
   }
 }

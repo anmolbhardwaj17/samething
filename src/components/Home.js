@@ -80,8 +80,8 @@ function Home() {
                         </div>
                         <div className="comp-about">
                             <h3 className="comp-name">TEDxVITVellore</h3>
-                            <p className="comp-position">Coordinator</p>
-                            <p className="date grey">Dec 2020 - Present</p>
+                            <p className="comp-position">Director of Tech</p>
+                            <p className="date grey">Jan 2022 - Present</p>
                         </div>
                     </div>
                     <div className="job">
@@ -126,7 +126,7 @@ function Home() {
                         <p className="">Easy way to visualize and understand communities.</p>
                         <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer" className="grey bold seemore">See more</a>
                     </div>
-                    <div className="project">
+                    {/* <div className="project">
                         <a href="https://what-has-happened.web.app/" target="_blank"><img width="100%" src="/assets/what-has-happened.png" alt="What has happened"></img></a>
                         <p className="">Website shows what has happened after you opened it.</p>
                         <a href="https://what-has-happened.web.app/" target="_blank" className="grey bold seemore">See more</a>
@@ -135,11 +135,11 @@ function Home() {
                         <a target="_blank" href="https://investment-calculator-0.web.app/"><img width="100%" src="/assets/investment-calculator.png" alt="Investment calculator"></img></a>
                         <p className="">Your go-to investment calculator</p>
                         <a target="_blank" href="https://investment-calculator-0.web.app/" className="grey bold seemore">See more</a>
-                    </div>
+                    </div> */}
                     
                 </div>
-
-                <a id="more-projects" className="more-proj" onClick={toProjects}>More projects</a>
+                <button id="more-projects" className="more-proj" onClick={toProjects}>More projects</button>
+                {/* <a id="more-projects" className="more-proj" onClick={toProjects}>More projects</a> */}
 
             </div>
             
@@ -177,8 +177,16 @@ function Home() {
                 <h1>Bankrupt Designs</h1>
                 <p className="grey context">Checkout my design page</p>
                 </div>
+                <div className="designs-img">
+                    <img src="/assets/design1.png"></img>
+                    <img src="/assets/design2.png"></img>
+                    <img src="/assets/design3.png"></img>
+                    <img src="/assets/design4.png"></img>
+                    <img src="/assets/design5.png"></img>
+                    <img src="/assets/design6.png"></img>
+                </div>
                 <div className="design-page">
-                <a href="https://www.instagram.com/bankrupt.designs/" target="_blank" id="more-projects" className="more-proj"><i id="ig" class="bi bi-instagram"></i>bankrupt.designs</a>
+               <a href="https://www.instagram.com/bankrupt.designs/" target="_blank"> <button id="more-projects" className="more-proj"><i id="ig" class="bi bi-instagram"></i>bankrupt.designs</button></a>
                 </div>
             </div>
             <div className="contact">
