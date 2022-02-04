@@ -2,3 +2,12 @@
     width:80%;
     margin:auto;
 }
+
+@media(max-width:455px){
+    .nonav{
+        width:90%;
+        margin:auto;
+        overflow:hidden;
+    }
+
+  }

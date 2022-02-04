@@ -1,0 +1,14 @@
+.outerprojectss{
+    padding-top:120px;
+    text-align: center;
+}
+
+.outerprojectss img{
+    width:400px;
+}
+
+@media(max-width:455px){
+    .outerprojectss img{
+        width:320px;
+    }
+}
