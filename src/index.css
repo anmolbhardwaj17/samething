@@ -21,8 +21,8 @@ html {
 
 
 body {
-  width:80%;
-  margin:auto;
+  margin:0;
+  padding:0;
   font-family: 'Gilroy';
   background-color: #060606;
   color:#ffffff;
@@ -71,13 +71,7 @@ a:hover{
 }
 
 @media(max-width:455px){
-  body {
-    width:90%;
-    margin:auto;
-    font-family: 'Gilroy';
-    background-color: #060606;
-    color:white;
-  }
+
   .context{
     font-size:16px;
   }

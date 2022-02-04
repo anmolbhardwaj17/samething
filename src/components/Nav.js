@@ -18,9 +18,15 @@ function Nav() {
 
     return (
         <nav>
+            <div className="navinner">
             <h3 className="logo" onClick={toHome}>ANMOL BHARDWAJ</h3>
-
+            <div className="top-right">
+            <a target="_blank" href="https://github.com/anmolbhardwaj17">Github</a>
             <a onClick={toProjects}>Projects</a>
+            </div>
+            </div>
+
+            
 
             
         </nav>

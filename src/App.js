@@ -17,10 +17,12 @@ function App() {
       <div className="App">
      <Nav/>
 
+     <div className="nonav">
      <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
      </Routes>
+     </div>
      
 
      
