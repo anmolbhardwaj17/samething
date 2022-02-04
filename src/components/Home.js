@@ -186,7 +186,7 @@ function Home() {
                     <img src="/assets/design6.png"></img>
                 </div>
                 <div className="design-page">
-               <a href="https://www.instagram.com/bankrupt.designs/" target="_blank"> <button id="more-projects" className="more-proj"><i id="ig" class="bi bi-instagram"></i>bankrupt.designs</button></a>
+               <a href="https://www.figma.com/@anmolbhardwaj" target="_blank"> <button id="more-projects" className="more-proj"><i id="ig" class="fab fa-figma"></i>More designs</button></a>
                 </div>
             </div>
             <div className="contact">
