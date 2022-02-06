@@ -19,6 +19,11 @@ function Projects() {
                         <a href="https://sentimiento.herokuapp.com/" target="_blank" className="grey bold seemore">See more</a>
                     </div>
                     <div className="project">
+                        <a href="https://tickets-meta.com/" target="_blank"><img width="100%" src="/assets/tickets.png" alt="Tickets NFT"></img></a>
+                        <p className="">Travel based NFT collection</p>
+                        <a href="https://tickets-meta.com/" target="_blank" className="grey bold seemore">See more</a>
+                    </div>
+                    <div className="project">
                         <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank"><img width="100%" src="/assets/crypto stats.png" alt="What has happened"></img></a>
                         <p className="">Get crypto data on the go</p>
                         <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank" className="grey bold seemore">See more</a>
@@ -46,7 +51,6 @@ function Projects() {
                     
                     
                 </div>
-                {/* <a id="more-projects" className="more-proj" onClick={toProjects}>More projects</a> */}
 
             </div>
             

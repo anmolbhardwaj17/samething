@@ -18,6 +18,10 @@ nav{
 
   }
 
+  #shortname{
+    display:none;
+  }
+
   .top-right a{
     font-weight: bold;
     cursor: pointer;
@@ -47,6 +51,13 @@ nav{
     }
     .top-right a{
       padding-left: 16px;
+    }
+
+    #shortname{
+      display:block;
+    }
+    #longname{
+      display: none;
     }
   }
   

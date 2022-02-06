@@ -19,16 +19,13 @@ function Nav() {
     return (
         <nav>
             <div className="navinner">
-            <h3 className="logo" onClick={toHome}>ANMOL BHARDWAJ</h3>
+            <h3 className="logo" id="longname" onClick={toHome}>ANMOL BHARDWAJ</h3>
+            <h3 className="logo" id="shortname" onClick={toHome}>AB</h3>
             <div className="top-right">
             <a target="_blank" href="https://github.com/anmolbhardwaj17">Github</a>
             <a onClick={toProjects}>Projects</a>
             </div>
-            </div>
-
-            
-
-            
+            </div>   
         </nav>
     )
 }
