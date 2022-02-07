@@ -39,9 +39,6 @@ nav{
   }
 
   @media(max-width:455px){
-    /* .logo{
-      display: none;
-    } */
     .logo{
       font-size: 16px;
     }

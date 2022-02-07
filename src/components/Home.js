@@ -130,7 +130,6 @@ function Home() {
                     
                 </div>
                 <button id="more-projects" className="more-proj" onClick={toProjects}>More projects</button>
-                {/* <a id="more-projects" className="more-proj" onClick={toProjects}>More projects</a> */}
 
             </div>
             
