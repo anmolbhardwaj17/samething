@@ -265,8 +265,8 @@
   }
   .project{
     width:30%;
-    height:440px;
-    margin:0px 8px;
+    height:auto;
+    margin:0px 8px 48px 0px;
   }
   .main-intro{
     width:600px;
@@ -279,8 +279,7 @@
 @media(max-width:768px){
   .project{
     width:45% !important;
-    height:300px;
-    margin:0px 8px;
+    margin:0px 8px 48px 0px;
   }
   .main-intro{
     width:500px;
@@ -320,8 +319,7 @@
   }
   .project{
     width:100% !important;
-    height:320px;
-    margin:0px 8px;
+    margin:0px 8px 48px 0px;
   }
   .outer2 {
     display: table;
