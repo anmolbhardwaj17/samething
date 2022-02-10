@@ -124,9 +124,9 @@ function Home() {
                         <a href="https://tickets-meta.com/" target="_blank" className="grey bold seemore">See more</a>
                     </div>
                     <div className="project">
-                        <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer"><img width="100%" src="/assets/girvan newman.png" alt="Girvan newman"></img></a>
-                        <p className="">Easy way to visualize and understand communities.</p>
-                        <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer" className="grey bold seemore">See more</a>
+                        <a href="https://github.com/anmolbhardwaj17/gamepoint" target="_blank"><img width="100%" src="/assets/gamepoint1.png" alt="What has happened"></img></a>
+                        <p className="">Betting portal for console gamers</p>
+                        <a href="https://github.com/anmolbhardwaj17/gamepoint" target="_blank" className="grey bold seemore">See more</a>
                     </div>
 
                     
