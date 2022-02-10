@@ -12,11 +12,16 @@ function Projects() {
         <img src="/assets/projectsection.png"></img>
         </div>
         <div className="work">
-                <div className="projects">
-                    <div className="project">
+                <div id="hover-action" className="projects">
+                    <div  className="project">
                         <a href="https://sentimiento.herokuapp.com/" target="_blank"><img width="100%" src="/assets/sentimiento.png" alt="What has happened"></img></a>
                         <p className="">Uses twitter api to do sentimental analysis on tweets using NLP.</p>
                         <a href="https://sentimiento.herokuapp.com/" target="_blank" className="grey bold seemore">See more</a>
+                    </div>
+                    <div className="project">
+                        <a href="https://github.com/anmolbhardwaj17/gamepoint" target="_blank"><img width="100%" src="/assets/gamepoint1.png" alt="What has happened"></img></a>
+                        <p className="">Betting portal for console gamers</p>
+                        <a href="https://github.com/anmolbhardwaj17/gamepoint" target="_blank" className="grey bold seemore">See more</a>
                     </div>
                     <div className="project">
                         <a href="https://tickets-meta.com/" target="_blank"><img width="100%" src="/assets/tickets.png" alt="Tickets NFT"></img></a>
@@ -24,9 +29,9 @@ function Projects() {
                         <a href="https://tickets-meta.com/" target="_blank" className="grey bold seemore">See more</a>
                     </div>
                     <div className="project">
-                        <a href="https://www.notion.so/Auto-Tweet-d420312bbcfa4b84b1d177b42edd6ba0" target="_blank"><img width="100%" src="/assets/auto-tweet.png" alt="What has happened"></img></a>
+                        <a href="https://medium.com/@anmolbhardwaj17/how-to-run-scheduled-jobs-for-free-b7767e95522c" target="_blank"><img width="100%" src="/assets/auto-tweet.png" alt="What has happened"></img></a>
                         <p className="">Twitter bot for free</p>
-                        <a href="https://www.notion.so/Auto-Tweet-d420312bbcfa4b84b1d177b42edd6ba0" target="_blank" className="grey bold seemore">See more</a>
+                        <a href="https://medium.com/@anmolbhardwaj17/how-to-run-scheduled-jobs-for-free-b7767e95522c" target="_blank" className="grey bold seemore">See more</a>
                     </div>
                     <div className="project">
                         <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer"><img width="100%" src="/assets/girvan newman.png" alt="Girvan newman"></img></a>
@@ -38,6 +43,7 @@ function Projects() {
                         <p className="">Get crypto data on the go</p>
                         <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank" className="grey bold seemore">See more</a>
                     </div>
+                    
 
 
                     

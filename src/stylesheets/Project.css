@@ -7,6 +7,16 @@
     width:400px;
 }
 
+/* #hover-action img{
+    filter: grayscale(100%);
+    transition:0.3s;
+}
+
+#hover-action img:hover{
+    filter: grayscale(0%);
+    transition:0.3s;
+} */
+
 @media(max-width:455px){
     .outerprojectss img{
         width:320px;
