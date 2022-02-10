@@ -35,7 +35,7 @@ function Home() {
                         <a className="social-icon" target="_blank" href="https://medium.com/@anmolbhardwaj17"><i class="bi bi-medium"></i></a>
                         <a className="social-icon" target="_blank" href="https://github.com/anmolbhardwaj17"><i class="bi bi-github"></i></a>
                         <a className="social-icon" target="_blank" href="https://twitter.com/anmolbhardwajj"><i class="bi bi-twitter"></i></a>  
-                        <a className="social-icon" target="_blank" href="https://www.figma.com/@anmolbhardwaj"><i id="ig" class="fab fa-figma"></i></a>
+                        {/* <a className="social-icon" target="_blank" href="https://www.figma.com/@anmolbhardwaj"><i id="ig" class="fab fa-figma"></i></a> */}
                                     
                     </div>
                     </div>
@@ -196,7 +196,7 @@ function Home() {
                         <a className="social-icon2" target="_blank" href="https://medium.com/@anmolbhardwaj17"><i class="bi bi-medium"></i></a>
                         <a className="social-icon2" target="_blank" href="https://github.com/anmolbhardwaj17"><i class="bi bi-github"></i></a>
                         <a className="social-icon2" target="_blank" href="https://twitter.com/anmolbhardwajj"><i class="bi bi-twitter"></i></a>  
-                        <a className="social-icon" target="_blank" href="https://www.figma.com/@anmolbhardwaj"><i class="fab fa-figma"></i></a>            
+                        {/* <a className="social-icon" target="_blank" href="https://www.figma.com/@anmolbhardwaj"><i class="fab fa-figma"></i></a>             */}
                     </div>
                 </div>
                 </div>
