@@ -24,9 +24,9 @@ function Projects() {
                         <a href="https://tickets-meta.com/" target="_blank" className="grey bold seemore">See more</a>
                     </div>
                     <div className="project">
-                        <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank"><img width="100%" src="/assets/crypto stats.png" alt="What has happened"></img></a>
-                        <p className="">Get crypto data on the go</p>
-                        <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank" className="grey bold seemore">See more</a>
+                        <a href="https://www.notion.so/Auto-Tweet-d420312bbcfa4b84b1d177b42edd6ba0" target="_blank"><img width="100%" src="/assets/auto-tweet.png" alt="What has happened"></img></a>
+                        <p className="">Twitter bot for free</p>
+                        <a href="https://www.notion.so/Auto-Tweet-d420312bbcfa4b84b1d177b42edd6ba0" target="_blank" className="grey bold seemore">See more</a>
                     </div>
                     <div className="project">
                         <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer"><img width="100%" src="/assets/girvan newman.png" alt="Girvan newman"></img></a>
@@ -34,20 +34,12 @@ function Projects() {
                         <a target="_blank" href="https://github.com/anmolbhardwaj17/Girvan-Newman-Algorithm-Visualizer" className="grey bold seemore">See more</a>
                     </div>
                     <div className="project">
-                        <a href="" target="_blank"><img width="100%" src="/assets/filler.png" alt="What has happened"></img></a>
-                        <p className="">This is a filler</p>
-                        <a href="" target="_blank" className="grey bold seemore">See more</a>
+                        <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank"><img width="100%" src="/assets/crypto stats.png" alt="What has happened"></img></a>
+                        <p className="">Get crypto data on the go</p>
+                        <a href="https://crypto-stats-ab.herokuapp.com/" target="_blank" className="grey bold seemore">See more</a>
                     </div>
-                    <div className="project">
-                        <a href="" target="_blank"><img width="100%" src="/assets/filler.png" alt="What has happened"></img></a>
-                        <p className="">This is a filler</p>
-                        <a href="" target="_blank" className="grey bold seemore">See more</a>
-                    </div>
-                    <div className="project">
-                        <a href="" target="_blank"><img width="100%" src="/assets/filler.png" alt="What has happened"></img></a>
-                        <p className="">This is a filler</p>
-                        <a href="" target="_blank" className="grey bold seemore">See more</a>
-                    </div>
+
+
                     
                     
                 </div>
