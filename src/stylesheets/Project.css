@@ -7,6 +7,10 @@
     width:400px;
 }
 
+.github-proj{
+    text-align: center;
+}
+
 /* #hover-action img{
     filter: grayscale(100%);
     transition:0.3s;

@@ -51,6 +51,9 @@ function Projects() {
                 </div>
 
             </div>
+            <div>
+            <a className="github-proj" href="https://github.com/anmolbhardwaj17" target="_blank"> <button id="more-projects" className="more-proj">Check out my Github</button></a>
+            </div>
             
         </div>
     )
