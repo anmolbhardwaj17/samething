@@ -44,6 +44,16 @@ body {
   border-radius: 10px;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #96ff1d;
+  background: rgb(53, 53, 53);
+}
+
+::selection {
+  color: #96ff1d;
+  background: rgb(53, 53, 53);
+}
+
 
 
 .grey{
