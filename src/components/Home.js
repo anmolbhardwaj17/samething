@@ -28,7 +28,7 @@ function Home() {
             <div className="first outer">
                 <div className="middle">
                     <h1>Hi! I'm</h1>
-                    <Zoom duration="2000">
+                    <Zoom duration="1000">
                     <img className="main-intro" src="/assets/main.png" alt="Samsung logo"></img> 
                     </Zoom>
                     <div className="tag">
