@@ -2,6 +2,7 @@ import React from 'react';
 import '../stylesheets/Nav.css';
 import '../stylesheets/Project.css';
 import {useNavigate} from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 
 function Projects() {
@@ -11,6 +12,7 @@ function Projects() {
         <div className="outerprojectss">
         <img src="/assets/projectsection.png"></img>
         </div>
+        <Fade>
         <div className="work">
                 <div id="hover-action" className="projects">
                     <div  className="project">
@@ -51,6 +53,7 @@ function Projects() {
                 </div>
 
             </div>
+            </Fade>
             <div>
             <a className="github-proj" href="https://github.com/anmolbhardwaj17" target="_blank"> <button id="more-projects" className="more-proj">Check out my Github</button></a>
             </div>
