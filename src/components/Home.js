@@ -116,7 +116,7 @@ function Home() {
 
             <div className="work">
                 <h1>Projects</h1>
-                <p className="grey context">Here are some of my projects</p> 
+                <p className="grey context">Some of my pet projects</p> 
                 <Fade>
                 <div className="projects">
                     <div className="project">
@@ -174,7 +174,7 @@ function Home() {
             <div className="bankrupt">
                 <div>
                 <h1>Bankrupt Designs</h1>
-                <p className="grey context">Checkout my design page</p>
+                <p className="grey context">I design to pump up those <strong>dopamine</strong> levels!</p>
                 </div>
                 <Fade>
                 <div className="designs-img">
@@ -193,7 +193,7 @@ function Home() {
             <div className="placeholder">
                 <div>
                 <h1>placeholder.raw</h1>
-                <p className="grey context">Checkout my photography page</p>
+                <p className="grey context">I like taking <strong>photos</strong>, here are some of them!</p>
                 </div>
                 <Fade>
                 <div className="photos-img">
