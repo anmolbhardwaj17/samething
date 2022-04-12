@@ -222,7 +222,7 @@ function Home() {
                     <p className="context grey">Working with someone has always been fun for me. Want to make something cool together?</p>
                     <p className="context bold">Hit me up!</p>
                     <div className="email-div">
-                    <a className="c-email" href="mailto: anmolbhardwaj17@gmail.com">anmolbhardwaj17@gmail.com</a>
+                    <a className="c-email" href="mailto: hey@anmolbhardwaj.in">hey@anmolbhardwaj.in</a>
                     </div>
                     <div className="socials2">
                         <a className="social-icon2" target="_blank" href="https://www.linkedin.com/in/anmolbhardwaj/"><i class="bi bi-linkedin"></i></a>
