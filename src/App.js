@@ -10,10 +10,12 @@ import {
   Routes,
   Link
 } from "react-router-dom";
+import ScrollToTop from './components/Extras/ScrollToTop';
 
 function App() {
   return (
     <Router>
+    <ScrollToTop>
       <div className="App">
      <Nav/>
 
@@ -28,6 +30,7 @@ function App() {
 
      
     </div>
+    </ScrollToTop>
     </Router>
     
   );
