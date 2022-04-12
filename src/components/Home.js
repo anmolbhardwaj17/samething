@@ -1,6 +1,8 @@
 import {React, useState, useEffect} from 'react';
 import '../stylesheets/Home.css';
 import {useNavigate} from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 function Home() {
     const placeholderText = ["Anmol Bhardwaj", "अनमोल भारद्वाज", "안몰 바르드와즈"];
@@ -26,7 +28,9 @@ function Home() {
             <div className="first outer">
                 <div className="middle">
                     <h1>Hi! I'm</h1>
+                    <Zoom duration="2000">
                     <img className="main-intro" src="/assets/main.png" alt="Samsung logo"></img> 
+                    </Zoom>
                     <div className="tag">
                     <h3 className="grey bold">Software Developer and Blockchain enthusiast.</h3>
                     <div className="socials">
@@ -113,6 +117,7 @@ function Home() {
             <div className="work">
                 <h1>Projects</h1>
                 <p className="grey context">Here are some of my projects</p> 
+                <Fade>
                 <div className="projects">
                     <div className="project">
                         <a href="https://sentimiento.herokuapp.com/" target="_blank"><img width="100%" src="/assets/sentimiento.png" alt="What has happened"></img></a>
@@ -132,6 +137,7 @@ function Home() {
 
                     
                 </div>
+                </Fade>
                 <button id="more-projects" className="more-proj" onClick={toProjects}>More projects</button>
 
             </div>
@@ -170,6 +176,7 @@ function Home() {
                 <h1>Bankrupt Designs</h1>
                 <p className="grey context">Checkout my design page</p>
                 </div>
+                <Fade>
                 <div className="designs-img">
                     <img src="/assets/design1.png"></img>
                     <img src="/assets/design2.png"></img>
@@ -178,6 +185,7 @@ function Home() {
                     <img src="/assets/design5.png"></img>
                     <img src="/assets/design6.png"></img>
                 </div>
+                </Fade>
                 <div className="design-page">
                <a href="https://www.figma.com/@anmolbhardwaj" target="_blank"> <button id="more-projects" className="more-proj"><i id="ig" class="fab fa-figma"></i>More designs</button></a>
                 </div>
@@ -187,6 +195,7 @@ function Home() {
                 <h1>placeholder.raw</h1>
                 <p className="grey context">Checkout my photography page</p>
                 </div>
+                <Fade>
                 <div className="photos-img">
                     <div className="padding">
                         <img className="singleImage" src="https://live.staticflickr.com/65535/51972180419_5a2f3cb643.jpg"/>
@@ -201,6 +210,7 @@ function Home() {
                         <img className="singleImage" src="https://live.staticflickr.com/65535/51971960783_46880867db.jpg"/>
                 </div>
                 </div>
+                </Fade>
                 <div className="design-page">
                <a href="https://placeholder.anmolbhardwaj.in/" target="_blank"> <button id="more-projects" className="more-proj"><i class="bi bi-camera-fill"></i>More photos</button></a>
                 </div>
