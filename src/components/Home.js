@@ -174,7 +174,7 @@ function Home() {
             <div className="bankrupt">
                 <div>
                 <h1>Bankrupt Designs</h1>
-                <p className="grey context">I design to pump up those <strong>dopamine</strong> levels!</p>
+                <p className="grey context">Here are some of my designs</p>
                 </div>
                 <Fade>
                 <div className="designs-img">
