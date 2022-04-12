@@ -31,10 +31,11 @@ function Home() {
                     <h3 className="grey bold">Software Developer and Blockchain enthusiast.</h3>
                     <div className="socials">
                     <a className="social-icon" target="_blank" href="https://www.linkedin.com/in/anmolbhardwaj/"><i class="bi bi-linkedin"></i></a>
+                    <a className="social-icon" target="_blank" href="https://github.com/anmolbhardwaj17"><i class="bi bi-github"></i></a>
+                        <a className="social-icon" target="_blank" href="https://twitter.com/anmolbhardwajj"><i class="bi bi-twitter"></i></a> 
                         <a className="social-icon" target="_blank" href="https://www.behance.net/anmolbhardwaj"><i class="bi bi-behance"></i></a>
-                        <a className="social-icon" target="_blank" href="https://medium.com/@anmolbhardwaj17"><i class="bi bi-medium"></i></a>
-                        <a className="social-icon" target="_blank" href="https://github.com/anmolbhardwaj17"><i class="bi bi-github"></i></a>
-                        <a className="social-icon" target="_blank" href="https://twitter.com/anmolbhardwajj"><i class="bi bi-twitter"></i></a>  
+                        <a className="social-icon" target="_blank" href="https://placeholder.anmolbhardwaj.in/"><i class="bi bi-camera-fill"></i></a>
+ 
                         {/* <a className="social-icon" target="_blank" href="https://www.figma.com/@anmolbhardwaj"><i id="ig" class="fab fa-figma"></i></a> */}
                                     
                     </div>
@@ -181,6 +182,29 @@ function Home() {
                <a href="https://www.figma.com/@anmolbhardwaj" target="_blank"> <button id="more-projects" className="more-proj"><i id="ig" class="fab fa-figma"></i>More designs</button></a>
                 </div>
             </div>
+            <div className="placeholder">
+                <div>
+                <h1>placeholder.raw</h1>
+                <p className="grey context">Checkout my photography page</p>
+                </div>
+                <div className="photos-img">
+                    <div className="padding">
+                        <img className="singleImage" src="https://live.staticflickr.com/65535/51972180419_5a2f3cb643.jpg"/>
+                </div>
+                <div className="padding">
+                        <img className="singleImage" src="https://live.staticflickr.com/65535/51972179874_0893180c3c.jpg"/>
+                </div>
+                <div className="padding">
+                        <img className="singleImage" src="https://live.staticflickr.com/65535/51971889596_1926345532.jpg"/>
+                </div>
+                <div className="padding">
+                        <img className="singleImage" src="https://live.staticflickr.com/65535/51971960783_46880867db.jpg"/>
+                </div>
+                </div>
+                <div className="design-page">
+               <a href="https://placeholder.anmolbhardwaj.in/" target="_blank"> <button id="more-projects" className="more-proj"><i class="bi bi-camera-fill"></i>More photos</button></a>
+                </div>
+            </div>
             <div className="contact">
             <div className="first outer2">
                 <div className="middle2">
@@ -192,16 +216,17 @@ function Home() {
                     </div>
                     <div className="socials2">
                         <a className="social-icon2" target="_blank" href="https://www.linkedin.com/in/anmolbhardwaj/"><i class="bi bi-linkedin"></i></a>
-                        <a className="social-icon2" target="_blank" href="https://www.behance.net/anmolbhardwaj"><i class="bi bi-behance"></i></a>
-                        <a className="social-icon2" target="_blank" href="https://medium.com/@anmolbhardwaj17"><i class="bi bi-medium"></i></a>
                         <a className="social-icon2" target="_blank" href="https://github.com/anmolbhardwaj17"><i class="bi bi-github"></i></a>
-                        <a className="social-icon2" target="_blank" href="https://twitter.com/anmolbhardwajj"><i class="bi bi-twitter"></i></a>  
+                        <a className="social-icon2" target="_blank" href="https://twitter.com/anmolbhardwajj"><i class="bi bi-twitter"></i></a> 
+                        <a className="social-icon2" target="_blank" href="https://www.behance.net/anmolbhardwaj"><i class="bi bi-behance"></i></a>
+                        <a className="social-icon2" target="_blank" href="https://placeholder.anmolbhardwaj.in/"><i class="bi bi-camera-fill"></i></a>
+ 
                         {/* <a className="social-icon" target="_blank" href="https://www.figma.com/@anmolbhardwaj"><i class="fab fa-figma"></i></a>             */}
                     </div>
                 </div>
                 </div>
             </div>
-            <p class="center bold grey">Anmol Bhardwaj 2021</p>
+            <p class="center bold grey">Anmol Bhardwaj 2022</p>
             </div>
             
             
