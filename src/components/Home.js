@@ -27,12 +27,16 @@ function Home() {
         <div>
             <div className="first outer">
                 <div className="middle">
+                    <Fade>
                     <h1>Hi! I'm</h1>
-                    <Zoom duration="1000">
+                    </Fade>
+                    <Fade delay="500">
                     <img className="main-intro" src="/assets/main.png" alt="Samsung logo"></img> 
-                    </Zoom>
+                    </Fade>
                     <div className="tag">
+                    <Fade delay="1000">
                     <h3 className="grey bold">Software Developer and Blockchain enthusiast.</h3>
+                    </Fade>
                     <div className="socials">
                     <a className="social-icon" target="_blank" href="https://www.linkedin.com/in/anmolbhardwaj/"><i class="bi bi-linkedin"></i></a>
                     <a className="social-icon" target="_blank" href="https://github.com/anmolbhardwaj17"><i class="bi bi-github"></i></a>
@@ -216,9 +220,13 @@ function Home() {
                 </div>
             </div>
             <div className="contact">
+            <Fade>
             <div className="first outer2">
                 <div className="middle2">
+                    
                     <h1>Let's create together!</h1>
+                    
+                    
                     <p className="context grey">Working with someone has always been fun for me. Want to make something cool together?</p>
                     <p className="context bold">Hit me up!</p>
                     <div className="email-div">
@@ -235,6 +243,7 @@ function Home() {
                     </div>
                 </div>
                 </div>
+                </Fade>
             </div>
             <p class="center bold grey">Anmol Bhardwaj 2022</p>
             </div>
