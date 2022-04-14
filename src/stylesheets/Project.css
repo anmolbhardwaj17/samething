@@ -21,6 +21,10 @@
     transition:0.3s;
 } */
 
+.github-button{
+    padding:48px 0px;
+}
+
 @media(max-width:455px){
     .outerprojectss img{
         width:320px;
