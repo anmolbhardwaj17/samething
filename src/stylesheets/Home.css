@@ -213,7 +213,7 @@
 }
 
 .c-email{
-  color:#2eca72;
+  color:#96ff1d;
   font-size:20px;
   font-weight: bold;
   text-decoration: none;
@@ -267,24 +267,24 @@
 }
 
 .bi-medium:hover{
-  color:#a1a1a1;
+  color:#96ff1d;
   transition: 0.2s;
 }
 .bi-linkedin:hover{
-  color:#0A63C5;
+  color:#96ff1d;
   transition: 0.2s;
 }
 .bi-behance:hover{
-  color:#0254F7;
+  color:#96ff1d;
   transition: 0.2s;
 }
 
 .bi-twitter:hover{
-  color:#1A91DA;
+  color:#96ff1d;
   transition: 0.2s;
 }
 .bi-github:hover{
-  color:rgb(165, 165, 165);
+  color:#96ff1d;
   transition: 0.2s;
 }
 
