@@ -37,6 +37,22 @@
   color:white;
 }
 
+/* .aboutme{
+  padding:64px 0px;
+  text-align: center;
+  width:64%;
+  margin:auto;
+}
+
+.aboutme h1{
+  padding-bottom: 32px;
+}
+
+.aboutme p{
+  line-height:28px;
+  font-size: 20px;
+} */
+
 .jobs{
   padding-top:48px;
   display: flex;

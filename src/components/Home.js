@@ -51,9 +51,13 @@ function Home() {
                 </div>  
                 
             </div> 
+            {/* <div className="aboutme">
+                <h1>About me</h1>
+                <p className="grey">Purpose driven web developer and designer with passion for user centric products and believe in balance between functionality and aesthetics in design.</p>
+            </div> */}
             <div className="experience">
                 <h1>Experience</h1>
-                <p className="grey context">Here are some of my past experiences</p>
+                <p className="grey context">Want insights into my past experiences?</p>
                 <div className="jobs">
                     <div className="job">
                         <div className="comp-img">
@@ -120,7 +124,7 @@ function Home() {
 
             <div className="work">
                 <h1>Projects</h1>
-                <p className="grey context">Some of my pet projects</p> 
+                <p className="grey context">Let's explore my pet projects!</p> 
                 <Fade>
                 <div className="projects">
                     <div className="project">
@@ -197,7 +201,7 @@ function Home() {
             <div className="placeholder">
                 <div>
                 <h1>placeholder.raw</h1>
-                <p className="grey context">I like taking <strong>photos</strong>, here are some of them!</p>
+                <p className="grey context">I like capturing <strong>moments</strong>, here are some of them!</p>
                 </div>
                 <Fade>
                 <div className="photos-img">
