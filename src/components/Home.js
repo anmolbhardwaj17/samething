@@ -58,35 +58,26 @@ function Home() {
             <div className="experience">
                 <h1>Experience</h1>
                 <p className="grey context">Want insights into my past experiences?</p>
+                <Fade>
                 <div className="jobs">
+                    <div className="job">
+                        <div className="comp-img">
+                            <img width="56px" src="/assets/gravystack.svg" alt="GravyStack logo"></img>
+                        </div>
+                        <div className="comp-about">
+                            <h3 className="comp-name">GravyStack</h3>
+                            <p className="comp-position">Software Developer</p>
+                            <p className="date grey">May 2022 - Present</p>
+                        </div>
+                    </div>
                     <div className="job">
                         <div className="comp-img">
                             <img width="56px" src="/assets/samsung.svg" alt="Samsung logo"></img>
                         </div>
                         <div className="comp-about">
                             <h3 className="comp-name">Samsung R&D</h3>
-                            <p className="comp-position">Research & Development Intern</p>
-                            <p className="date grey">Nov 2021 - Present</p>
-                        </div>
-                    </div>
-                    <div className="job">
-                        <div className="comp-img">
-                            <img width="56px" src="/assets/gamepoint.svg" alt="Gamepoint logo"></img>
-                        </div>
-                        <div className="comp-about">
-                            <h3 className="comp-name">Gamepoint</h3>
-                            <p className="comp-position">Web Development Intern</p>
-                            <p className="date grey">Sep 2021 - Nov-2021</p>
-                        </div>
-                    </div>
-                    <div className="job">
-                        <div className="comp-img">
-                            <img width="56px" src="/assets/acmvit.svg" alt="acmvit logo"></img>
-                        </div>
-                        <div className="comp-about">
-                            <h3 className="comp-name">ACM-VIT</h3>
-                            <p className="comp-position">Project Guide</p>
-                            <p className="date grey">Apr 2021 - Present</p>
+                            <p className="comp-position">R&D Intern</p>
+                            <p className="date grey">Nov 2021 - May 2022</p>
                         </div>
                     </div>
                     <div className="job">
@@ -99,6 +90,28 @@ function Home() {
                             <p className="date grey">Jan 2022 - Present</p>
                         </div>
                     </div>
+                    <div className="job">
+                        <div className="comp-img">
+                            <img width="56px" src="/assets/gamepoint.svg" alt="Gamepoint logo"></img>
+                        </div>
+                        <div className="comp-about">
+                            <h3 className="comp-name">Gamepoint</h3>
+                            <p className="comp-position">Web Development Intern</p>
+                            <p className="date grey">Sep 2021 - Nov-2021</p>
+                        </div>
+                    </div>
+                    
+                    <div className="job">
+                        <div className="comp-img">
+                            <img width="56px" src="/assets/acmvit.svg" alt="acmvit logo"></img>
+                        </div>
+                        <div className="comp-about">
+                            <h3 className="comp-name">ACM-VIT</h3>
+                            <p className="comp-position">Project Guide</p>
+                            <p className="date grey">Apr 2021 - Mar 2022</p>
+                        </div>
+                    </div>
+                    
                     <div className="job">
                         <div className="comp-img">
                             <img width="56px" src="/assets/safeouts.svg" alt="safeouts logo"></img>
@@ -120,6 +133,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
 
             <div className="work">
@@ -142,6 +156,7 @@ function Home() {
                         <p className="">Betting portal for console gamers</p>
                         <a href="https://github.com/anmolbhardwaj17/gamepoint" target="_blank" className="grey bold seemore">See more</a>
                     </div>
+                    
 
                     
                 </div>
