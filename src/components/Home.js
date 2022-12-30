@@ -177,6 +177,9 @@ function Home() {
                         <img width="100%" src="/assets/techstack/mongodb.svg" alt="nodejs"></img>
                     </div>
                     <div className="language">
+                        <img width="100%" src="/assets/techstack/nestjs.svg" alt="nodejs"></img>
+                    </div>
+                    <div className="language">
                         <img width="100%" src="/assets/techstack/angular.svg" alt="nodejs"></img>
                     </div>
                     <div className="language">
@@ -203,9 +206,9 @@ function Home() {
                 <div className="designs-img">
                     <img src="/assets/design1.png"></img>
                     <img src="/assets/design2.png"></img>
-                    <img src="/assets/design3.png"></img>
                     <img src="/assets/design4.png"></img>
                     <img src="/assets/design5.png"></img>
+                    <img src="/assets/design3.png"></img>
                     <img src="/assets/design6.png"></img>
                 </div>
                 </Fade>
@@ -221,16 +224,16 @@ function Home() {
                 <Fade>
                 <div className="photos-img">
                     <div className="padding">
-                        <img className="singleImage" src="https://live.staticflickr.com/65535/51972180419_5a2f3cb643.jpg"/>
+                        <img className="singleImage" src="https://live.staticflickr.com/65535/52411971142_d8849e7671_k.jpg"/>
                 </div>
                 <div className="padding">
-                        <img className="singleImage" src="https://live.staticflickr.com/65535/51972179874_0893180c3c.jpg"/>
+                        <img className="singleImage" src="https://live.staticflickr.com/65535/52411971182_1a9ecc80a4_z.jpg"/>
                 </div>
                 <div className="padding">
-                        <img className="singleImage" src="https://live.staticflickr.com/65535/51971889596_1926345532.jpg"/>
+                        <img className="singleImage" src="https://live.staticflickr.com/65535/52596124785_f4dbb052ff_b.jpg"/>
                 </div>
                 <div className="padding">
-                        <img className="singleImage" src="https://live.staticflickr.com/65535/51971960783_46880867db.jpg"/>
+                        <img className="singleImage" src="https://live.staticflickr.com/65535/52412992768_ae8dad87ff_h.jpg"/>
                 </div>
                 </div>
                 </Fade>
