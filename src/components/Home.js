@@ -62,12 +62,22 @@ function Home() {
                 <div className="jobs">
                     <div className="job">
                         <div className="comp-img">
+                            <img width="56px" src="/assets/siemba.svg" alt="GravyStack logo"></img>
+                        </div>
+                        <div className="comp-about">
+                            <h3 className="comp-name">Siemba.io</h3>
+                            <p className="comp-position">Software Developer</p>
+                            <p className="date grey">Feb 2023 - Present</p>
+                        </div>
+                    </div>
+                    <div className="job">
+                        <div className="comp-img">
                             <img width="56px" src="/assets/gravystack.svg" alt="GravyStack logo"></img>
                         </div>
                         <div className="comp-about">
                             <h3 className="comp-name">GravyStack</h3>
                             <p className="comp-position">Software Developer</p>
-                            <p className="date grey">May 2022 - Present</p>
+                            <p className="date grey">May 2022 - Feb 2023</p>
                         </div>
                     </div>
                     <div className="job">
@@ -128,7 +138,7 @@ function Home() {
                         </div>
                         <div className="comp-about">
                             <h3 className="comp-name">Alfaleus Tech</h3>
-                            <p className="comp-position">Backend Unity Developer</p>
+                            <p className="comp-position">Unity Development Intern</p>
                             <p className="date grey">Jan 2020 - Mar 2020</p>
                         </div>
                     </div>
